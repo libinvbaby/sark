@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.navbar-expand-lg{
+    background-color: #f1dfd5;
+}
+.nav-link{
+    color: #000;;
+}
+.nav-link:hover{
+    color: #fff;
+}
+.banner{
+    background-color: #f1dfd5;
+    padding:100px 0 100px 0;
+}
+
+.banner h1{
+   
+    font-size:87px;
+    font-weight: 600;
+    font-family: 'Teko', sans-serif;
+
+}
+.icongrp-one{
+    position: relative;
+}
+.icons-one{
+    position: absolute;
+    top:150px;
+    left: 100px;
+    left:150px
+
+} 
+.icons-two{
+    position: absolute;
+    top:350px;
+    left: 250px;
+}
+.icons-three{
+    position: absolute;
+    top:0px;
+    left: 210px;
+}
+.icongrp-two{
+    position: relative;
+
+}
+.icons-four{
+    position: absolute;
+    bottom:250px;
+    right:200px;
+}
+.icons-five{
+    position: absolute;
+    bottom:100px;
+    right:180px;
+}
+.icons-six{
+    position: absolute;
+    top:0px;
+    right:290px;
+}
+.title{
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size:50px
+}
+.service{
+    border: 2px solid black;
+    padding:20px;
+    border-radius:10px;
+}
+.counter{
+    padding:50px 0px;
+    background-color:#e5eef5;
+}
+.counter-text{
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+}
+.card{
+    border:3px solid black;
+    border-radius:10px;
+}
+.test{
+    padding:50px 0px;
+    background-color:#f1dfd5;
+}
+.testimonial-card{
+    border-radius: 10px;
+}
+.newsletterSection{
+    background-color:#86e7b8;
+    border-radius: 10px;
+}
+.buttonIn {
+    width: 230px;
+    position: relative;
+}
+ 
+input {
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border: 3px solid #86e7b8;
+    height: 40px;
+    border-radius: 5px;
+}
+.button-sub {
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    right: 0px;
+    padding:5px;
+    z-index: 2;
+    border: none;
+    top: 0px;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    background-color: #86e7b8;
+    transform: translateX(2px);
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 668px) {
+    .icons-one{
+        position: absolute;
+        bottom:40px;
+        left: 0px;
+    
+    } 
+    .icons-two{
+        position: absolute;
+        top:-55px;
+        left: 200px;
+    }
+    .icons-three{
+        position: absolute;
+        top:-50px;
+        left: 0px;
+    }
+    
+    .icons-four{
+        position: absolute;
+        top:10px;
+        right:250px;
+    }
+    .icons-five{
+        position: absolute;
+        top:20px;
+        right:150px;
+    }
+    .icons-six{
+        position: absolute;
+        top:20px;
+        right:20px;
+    }
+    .buttonIn {
+        width: 100%;
+        position: relative;
+    }
+}
